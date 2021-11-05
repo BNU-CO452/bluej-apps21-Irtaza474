@@ -1,0 +1,20 @@
+Module co452 = new Module("CO452", "Progamming Concepts");
+co452.getTitle()
+    returned String "Progamming Concepts"
+co452.getCode()
+    returned String "CO452"
+co452.getCredit()
+    returned int 0
+Module co452 = new Module("CO452", "Progamming Concepts");
+co452.getCode()
+    returned String "CO452"
+co452.getTitle()
+    returned String "Progamming Concepts"
+co452.getCredit()
+    returned int 0
+co452.setCredit(15);
+co452.getCredit()
+    returned int 15
+co452.print();
+Module Code: CO452 : Progamming Concepts
+

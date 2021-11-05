@@ -11,7 +11,7 @@ public class Module {
     // variable
     private String code;
     private String title;
-    private int credit;
+    private Module module;
     
     /**
      * Constructor for objects of class Module
@@ -20,9 +20,9 @@ public class Module {
         // initialise instance variables
         this.code = code;
         this.title = title;
-        credit = 0;
+         credit = 0;
     }
-    
+        
     /**
      * The method will printout the module code and
      * title
@@ -44,7 +44,8 @@ public class Module {
         return this.credit;
     }
 
-    public void setCredit(int credit) {
+    public void setCredit(int credit) 
+    {
         this.credit = credit;
     }
 
@@ -63,6 +64,9 @@ public class Module {
         m.print();
     }
 }
+
+
+
     
     
     
